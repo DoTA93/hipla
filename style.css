@@ -281,3 +281,13 @@ ul .active {
     border-radius: 5px;
     position: relative;
 }
+
+.card-case {
+    border: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    background: #ffffff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
