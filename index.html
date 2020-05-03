@@ -32,7 +32,7 @@
             <img style="max-width: 150px;" src="./image/logo.png" alt="" />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -43,7 +43,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link active" href="/index.html">Home</a>
@@ -72,25 +72,58 @@
                   >
                     <div>
                       <div class="dropdown-header">Products</div>
-                      <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                        <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg" alt="" style="width: 48px!important; height: 48px;">
+                      <a
+                        class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                        href="#"
+                      >
+                        <img
+                          src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                          alt=""
+                          style="width: 48px !important; height: 48px;"
+                        />
                         <div class="ml-2">
-                          <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                          <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
+                          <h5 class="mb-0 font-weight-normal h6">
+                            Product name
+                          </h5>
+                          <p class="mb-0 text-muted">
+                            Lorem ipsum dolor sit amet.
+                          </p>
                         </div>
                       </a>
-                      <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                        <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg" alt="" style="width: 48px!important; height: 48px;">
+                      <a
+                        class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                        href="#"
+                      >
+                        <img
+                          src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                          alt=""
+                          style="width: 48px !important; height: 48px;"
+                        />
                         <div class="ml-2">
-                          <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                          <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
+                          <h5 class="mb-0 font-weight-normal h6">
+                            Product name
+                          </h5>
+                          <p class="mb-0 text-muted">
+                            Lorem ipsum dolor sit amet.
+                          </p>
                         </div>
                       </a>
-                      <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                        <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg" alt="" style="width: 48px!important; height: 48px;">
+                      <a
+                        class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                        href="#"
+                      >
+                        <img
+                          src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                          alt=""
+                          style="width: 48px !important; height: 48px;"
+                        />
                         <div class="ml-2">
-                          <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                          <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
+                          <h5 class="mb-0 font-weight-normal h6">
+                            Product name
+                          </h5>
+                          <p class="mb-0 text-muted">
+                            Lorem ipsum dolor sit amet.
+                          </p>
                         </div>
                       </a>
                     </div>
@@ -107,19 +140,94 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/use-cases.html">Use Cases</a>
+                <a class="nav-link" href="./use-cases.html">Use Cases</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">Brochures</a>
               </li>
               <li>
-                <a class="nav-link" href="/pricing.html">Pricing</a>
+                <a class="nav-link" href="./pricing.html">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact Us</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
               </li>
             </ul>
             <a href="#" class="btn btn-primary ml-3">Request Demo</a>
+          </div>
+        </nav>
+
+        <nav class="mobile-nav">
+          <div class="products">
+            <div class="row">
+              <div class="col-12">
+                <h5 class="text-muted small">Products</h5>
+                <button class="btn btn-link text-decoration-none p-2 bg-transparent text-dark close"><i class="fa fa-times"></i></button>
+              </div>
+
+              <div class="col-6">
+                <a class="d-flex align-items-center rounded-lg py-2" href="#">
+                  <img
+                    src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                    alt=""
+                    style="width: 30px !important; height: 30px;"
+                  />
+                  <div class="ml-2">
+                    <h5 class="mb-0 font-weight-normal text-decoration-none">
+                      Product name
+                    </h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a class="d-flex align-items-center rounded-lg py-2" href="#">
+                  <img
+                    src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                    alt=""
+                    style="width: 30px !important; height: 30px;"
+                  />
+                  <div class="ml-2">
+                    <h5 class="mb-0 font-weight-normal text-decoration-none">
+                      Product name
+                    </h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-12">
+                <div class="links mt-3">
+                  <h5 class="text-muted small">Other links</h5>
+                  <ul class="nav flex-column pl-0 w-100">
+                    <li class="nav-item">
+                      <a class="nav-link font-weight-normal text-dark pl-0" href="/"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./use-cases.html"
+                        >Use cases</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./contact.html"
+                        >Conacts</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </nav>
       </div>
@@ -240,7 +348,7 @@
           </div>
 
           <div class="col-md-3">
-            <div class="card single-box card-smart" >
+            <div class="card single-box card-smart">
               <div class="card-body">
                 <img
                   class="mb-3"
@@ -259,7 +367,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box card-smart" >
+            <div class="card single-box card-smart">
               <div class="card-body">
                 <img
                   class="mb-3"
@@ -278,7 +386,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box card-smart" >
+            <div class="card single-box card-smart">
               <div class="card-body">
                 <img
                   class="mb-3"
@@ -297,7 +405,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box card-smart" >
+            <div class="card single-box card-smart">
               <div class="card-body">
                 <img
                   class="mb-3"
@@ -383,7 +491,7 @@
           </div>
 
           <div class="col-md-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -403,7 +511,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -423,7 +531,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -443,7 +551,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -464,7 +572,7 @@
           </div>
 
           <div class="col-md-3 mt-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -484,7 +592,7 @@
             </div>
           </div>
           <div class="col-md-3 mt-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -504,7 +612,7 @@
             </div>
           </div>
           <div class="col-md-3 mt-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -524,7 +632,7 @@
             </div>
           </div>
           <div class="col-md-3 mt-3">
-            <div class="card single-box" >
+            <div class="card single-box">
               <div class="card-body text-center">
                 <img
                   class="mb-3"
@@ -1056,18 +1164,22 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
     ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
     ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
     ></script>
+    <script>
+      $('.mobile-nav').on('click', '.close', function (e) {
+        e.preventDefault();
+        $('.mobile-nav').removeClass('show');
+      })
+      $('.navbar-toggler').on('click', function (e) {
+        e.preventDefault();
+        $('.mobile-nav').addClass('show');
+      })
+    </script>
   </body>
 </html>

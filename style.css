@@ -293,3 +293,26 @@ ul .active {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
+
+.mobile-nav {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 9999999;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(100% - 30px);
+    left: 15px;
+    top: 10px;
+    display: none;
+}
+
+.mobile-nav.show {
+    display: block;
+}
+
+.mobile-nav .close {
+    top: -10px;
+    position: absolute;
+    right: 5px;
+}
