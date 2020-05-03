@@ -19,6 +19,8 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Hipla - IoT Company</title>
@@ -43,7 +45,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse d-none d-lg-block"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link active" href="/index.html">Home</a>
@@ -161,7 +166,11 @@
             <div class="row">
               <div class="col-12">
                 <h5 class="text-muted small">Products</h5>
-                <button class="btn btn-link text-decoration-none p-2 bg-transparent text-dark close"><i class="fa fa-times"></i></button>
+                <button
+                  class="btn btn-link text-decoration-none p-2 bg-transparent text-dark close"
+                >
+                  <i class="fa fa-times"></i>
+                </button>
               </div>
 
               <div class="col-6">
@@ -199,7 +208,9 @@
                   <h5 class="text-muted small">Other links</h5>
                   <ul class="nav flex-column pl-0 w-100">
                     <li class="nav-item">
-                      <a class="nav-link font-weight-normal text-dark pl-0" href="/"
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="/"
                         >Home</a
                       >
                     </li>
@@ -269,55 +280,30 @@
 
     <section class="carousel-home" style="margin-top: 100px;">
       <div class="container">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div
-                class="row d-flex justify-content-center align-items-center bwtocolor"
-              >
-                <div class="col-md-2">
-                  <img
-                    class="d-block w-50"
-                    src="./image/clients/dps.png"
-                    alt="First slide"
-                  />
-                </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="owl-carousel">
+              <div class="item">
+                <img src="./image/clients/dps.png" alt="First slide" />
+              </div>
 
-                <div class="col-md-2">
-                  <img
-                    class="d-block w-75"
-                    src="./image/clients/writer.png"
-                    alt="First slide"
-                  />
-                </div>
+              <div class="item">
+                <img src="./image/clients/writer.png" alt="First slide" />
+              </div>
 
-                <div class="col-md-2">
-                  <img
-                    class="d-block w-75"
-                    src="./image/clients/Yes_Bank_logo.png"
-                    alt="First slide"
-                  />
-                </div>
+              <div class="item">
+                <img
+                  src="./image/clients/Yes_Bank_logo.png"
+                  alt="First slide"
+                />
+              </div>
 
-                <div class="col-md-2">
-                  <img
-                    class="d-block w-75"
-                    src="./image/clients/vehere.png"
-                    alt="First slide"
-                  />
-                </div>
+              <div class="item">
+                <img src="./image/clients/vehere.png" alt="First slide" />
+              </div>
 
-                <div class="col-md-2">
-                  <img
-                    class="d-block w-75"
-                    src="./image/clients/kapture.png"
-                    alt="First slide"
-                  />
-                </div>
+              <div class="item">
+                <img src="./image/clients/kapture.png" alt="First slide" />
               </div>
             </div>
           </div>
@@ -1062,7 +1048,7 @@
     >
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md-7">
+          <div class="col-md-4">
             <img
               class="mb-2"
               src="./image/logo.png"
@@ -1073,7 +1059,7 @@
               >SMART OFFICE SOLUTIONS</small
             >
           </div>
-          <div class="col-md-5">
+          <div class="col-md-8">
             <form>
               <div class="form-row">
                 <div class="col-md-7 mb-2">
@@ -1162,24 +1148,42 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script>
-      $('.mobile-nav').on('click', '.close', function (e) {
+      $(".mobile-nav").on("click", ".close", function (e) {
         e.preventDefault();
-        $('.mobile-nav').removeClass('show');
-      })
-      $('.navbar-toggler').on('click', function (e) {
+        $(".mobile-nav").removeClass("show");
+      });
+      $(".navbar-toggler").on("click", function (e) {
         e.preventDefault();
-        $('.mobile-nav').addClass('show');
-      })
+        $(".mobile-nav").addClass("show");
+      });
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          responsiveClass: true,
+          // center: true,
+          nav: false,
+          margin: 20,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            800: {
+              items: 3,
+            },
+            1000: {
+              items: 4,
+            },
+          },
+        });
+      });
     </script>
   </body>
 </html>

@@ -316,3 +316,19 @@ ul .active {
     position: absolute;
     right: 5px;
 }
+
+.owl-carousel .item {
+    text-align: center;
+}
+
+.owl-carousel .item img {
+    width: auto !important;
+    height: 80px !important;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    filter: grayscale(1);
+}
+.owl-carousel .item:hover img {
+    filter: grayscale(0);
+}
