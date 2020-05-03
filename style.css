@@ -295,7 +295,7 @@ ul .active {
 }
 
 .mobile-nav {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     z-index: 9999999;
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
