@@ -21,7 +21,9 @@ img {
     margin-left: 14px;
     margin-right: 14px;
 }
-
+.navbar .dropdown:hover>.dropdown-menu {
+  display: block;
+}
 .btn {
     font-weight: 600;
     font-size: 14px;
