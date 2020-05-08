@@ -1,784 +1,1203 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
 
     <!-- CSS and Font-awesome -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Hipla - IoT Company</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="/index.html">
-                    <img style="max-width: 150px;" src="./image/logo.png" alt="" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white nav-p">
+          <div class="container">
+            <a class="navbar-brand" href="/index.html">
+              <img style="max-width: 125px;" src="./image/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div
+              class="collapse navbar-collapse d-none d-lg-block"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <!-- first is the link in your navbar -->
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="servicesDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+  
+                  <!-- your mega menu starts here! -->
+                  <div
+                    class="dropdown-menu dropdown-menu-right p-2 m-0"
+                    aria-labelledby="servicesDropdown"
+                  >
+                    <!-- finally, using flex to create your layout -->
+                    <div
+                      class="d-md-flex align-items-start justify-content-start"
+                    >
+                      <div>
+                        <div class="dropdown-header">Products</div>
+                        <a
+                          class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                          href="#"
+                        >
+                          <img
+                            src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                            alt=""
+                            style="width: 48px !important; height: 48px;"
+                          />
+                          <div class="ml-2">
+                            <h5 class="mb-0 font-weight-normal h6">
+                              Product name
+                            </h5>
+                            <p class="mb-0 text-muted">
+                              Lorem ipsum dolor sit amet.
+                            </p>
+                          </div>
+                        </a>
+                        <a
+                          class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                          href="#"
+                        >
+                          <img
+                            src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                            alt=""
+                            style="width: 48px !important; height: 48px;"
+                          />
+                          <div class="ml-2">
+                            <h5 class="mb-0 font-weight-normal h6">
+                              Product name
+                            </h5>
+                            <p class="mb-0 text-muted">
+                              Lorem ipsum dolor sit amet.
+                            </p>
+                          </div>
+                        </a>
+                        <a
+                          class="dropdown-item d-flex align-items-center rounded-lg py-2"
+                          href="#"
+                        >
+                          <img
+                            src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                            alt=""
+                            style="width: 48px !important; height: 48px;"
+                          />
+                          <div class="ml-2">
+                            <h5 class="mb-0 font-weight-normal h6">
+                              Product name
+                            </h5>
+                            <p class="mb-0 text-muted">
+                              Lorem ipsum dolor sit amet.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+  
+                      <!-- <div>
+                        <div class="dropdown-header">Services</div>
+                        <a class="dropdown-item" href="#">Project rescue</a>
+                        <a class="dropdown-item" href="#">Source code recovery</a>
+                        <a class="dropdown-item" href="#"
+                          >Application support</a
+                        >
+                      </div> -->
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./use-cases.html">Use Cases</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Brochures</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary ml-3">Request Demo</a>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="mobile-nav">
+          <div class="products">
+            <div class="row">
+              <div class="col-12">
+                <h5 class="text-muted small">Products</h5>
+                <button
+                  class="btn btn-link text-decoration-none p-2 bg-transparent text-dark close"
+                >
+                  <i class="fa fa-times"></i>
                 </button>
+              </div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <!-- first is the link in your navbar -->
-                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="col-6">
+                <a class="d-flex align-items-center rounded-lg py-2" href="#">
+                  <img
+                    src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                    alt=""
+                    style="width: 30px !important; height: 30px;"
+                  />
+                  <div class="ml-2">
+                    <h5 class="mb-0 font-weight-normal text-decoration-none">
+                      Product name
+                    </h5>
+                  </div>
+                </a>
+              </div>
 
-                            <!-- your mega menu starts here! -->
-                            <div class="dropdown-menu dropdown-menu-right p-2" aria-labelledby="servicesDropdown">
-                                <!-- finally, using flex to create your layout -->
-                                <div class="d-md-flex align-items-start justify-content-start">
-                                    <div>
-                                        <div class="dropdown-header">Products</div>
-                                        <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                                            <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
-                                                alt="" style="width: 48px!important; height: 48px;">
-                                            <div class="ml-2">
-                                                <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                                                <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                                            <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
-                                                alt="" style="width: 48px!important; height: 48px;">
-                                            <div class="ml-2">
-                                                <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                                                <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
-                                            </div>
-                                        </a>
-                                        <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
-                                            <img src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
-                                                alt="" style="width: 48px!important; height: 48px;">
-                                            <div class="ml-2">
-                                                <h5 class="mb-0 font-weight-normal h6">Product name</h5>
-                                                <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
-                                            </div>
-                                        </a>
-                                    </div>
+              <div class="col-6">
+                <a class="d-flex align-items-center rounded-lg py-2" href="#">
+                  <img
+                    src="https://envoy.com/images/visitor-registration/visitors-app-icon.svg"
+                    alt=""
+                    style="width: 30px !important; height: 30px;"
+                  />
+                  <div class="ml-2">
+                    <h5 class="mb-0 font-weight-normal text-decoration-none">
+                      Product name
+                    </h5>
+                  </div>
+                </a>
+              </div>
 
-                                    <!-- <div>
-                      <div class="dropdown-header">Services</div>
-                      <a class="dropdown-item" href="#">Project rescue</a>
-                      <a class="dropdown-item" href="#">Source code recovery</a>
-                      <a class="dropdown-item" href="#"
-                        >Application support</a
+              <div class="col-12">
+                <div class="links mt-3">
+                  <h5 class="text-muted small">Other links</h5>
+                  <ul class="nav flex-column pl-0 w-100">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="/"
+                        >Home</a
                       >
-                    </div> -->
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/use-cases.html">Use Cases</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Brochures</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="/pricing.html">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn btn-primary ml-3">Request Demo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./use-cases.html"
+                        >Use cases</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./pricing.html"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link font-weight-normal text-dark pl-0"
+                        href="./contact.html"
+                        >Conacts</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            </nav>
-        </div>
+              </div>
+            </div>
+          </div>
+        </nav>
     </section>
 
-    <section class="mt-5">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <div class="iot-banner-content">
-                        <span>Internet of Things</span>
-                        <h2>Strengthen your workplace security with Envoy</h2>
-                        <p>
-                            Your front desk is the first line of defense against unwanted intruders. Hipla protects your
-                            people, property, and
-                            ideas, so you can welcome visitors with confidence.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img style="max-width: 600px;" src="./image/hero.png" alt="" srcset="" />
-                </div>
+    <section class="hero-section">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          
+          <div class="col-md-6 order-sm-2">
+            <img
+              style="max-width: 600px;"
+              src="./image/hero.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-md-6 order-sm-1 hero-1">
+            <div class="iot-banner-content">
+              <span>Internet of Things</span>
+              <h2>We get it! IoT growth is happening</h2>
+              <p>
+                At this point, it may seem like overkill to point out the
+                continued growth bound to happen in the Internet of Things space
+                for the years to come and how it will create new opportunities
+                for companies, both established and new, from a hardware and
+                software perspective.
+              </p>
+              <a
+                href="#"
+                style="background-color: #2d59a7;"
+                class="btn btn-primary"
+                >Get Started</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
+    <section class="carousel-home section-carousel">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="owl-carousel bwtocolor">
+              <div class="item">
+                <img src="./image/clients/dps.png" alt="First slide" />
+              </div>
 
-    <section style="margin-top: 100px;">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-10 offset-md-1 text-center iot-banner-content mb-3">
-                    <span>Welcome to Hipla</span>
+              <div class="item">
+                <img src="./image/clients/writer.png" alt="First slide" />
+              </div>
 
-                    <h4 style="font-weight: 700;">
-                        Your Reliable IOT Solutions Company
-                    </h4>
-                    <p>
-                        Hipla welcomes you to a smart world of integrated devices and
-                        sensors. We are a leading IOT Solutions Company in India, entered
-                        the arena of AI which works in coherence with an IoT platform,
-                        transforming your work environment magically, without the swoosh
-                        of a wand!
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <div class="iot-banner-content">
-                        <span>Internet of Things</span>
-                        <h4 style="font-weight: 700;" class="my-3">
-                            What is Hipla Office?
-                        </h4>
-                        <p>
-                            An all-round support solution that manages every step of
-                            critical office processes making them easier to accomplish.
-                        </p>
-                        <p>
-                            Our IOT Solutions Company has an advanced and modern age
-                            solution system for effective automation of various office
-                            processes such as management of guest arrivals through entry
-                            access and parking management, scheduling and managements of
-                            meetings, boardroom automation, employee workspace management,
-                            refreshment ordering and much more.
-                        </p>
-                        <a href="#" class="btn btn-primary">Watch Video &nbsp;<i class="fa fa-play"
-                                aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img style="max-width: 600px;" src="./image/image1.png" alt="" srcset="" />
-                </div>
+              <div class="item">
+                <img
+                  src="./image/clients/Yes_Bank_logo.png"
+                  alt="First slide"
+                />
+              </div>
+
+              <div class="item">
+                <img src="./image/clients/vehere.png" alt="First slide" />
+              </div>
+
+              <div class="item">
+                <img src="./image/clients/kapture.png" alt="First slide" />
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="iot-cta-area bg-0f054b" style="margin-top: 100px;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="cta-iot-img">
-                        <img src="https://www.pasona-vue.envytheme.com/img/cta-shape2.6a78c3a6.png"
-                            data-wow-delay="0.6s" alt="image" class="wow fadeInUp" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="cta-iot-content">
-                        <h3>Connect and Manage your IoT at Scale</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                            ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <a href="#" class="btn btn-primary">Get Started!</a>
-                    </div>
-                </div>
+    <section >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-10 offset-md-1 text-center iot-banner-content mb-3"
+          >
+            <span>Welcome to Hipla</span>
+
+            <div class="bar"></div>
+
+            <h4 style="font-weight: 700;">
+              Your Reliable IOT Solutions Company
+            </h4>
+            <p>
+              Hipla welcomes you to a smart world of integrated devices and
+              sensors. We are a leading IOT Solutions Company in India, entered
+              the arena of AI which works in coherence with an IoT platform,
+              transforming your work environment magically, without the swoosh
+              of a wand!
+            </p>
+          </div>
+
+          <div class="col-md-3 mt-2">
+            <div class="card single-box card-smart">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="card single-box card-smart">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="card single-box card-smart">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="card single-box card-smart">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="circle-box">
-            <img src="https://www.pasona-vue.envytheme.com/img/circle.1c652109.png" alt="image" />
-        </div>
-        <div class="cta-shape">
-            <img src="https://www.pasona-vue.envytheme.com/img/cta-shape.1db2a22e.png" alt="image" />
-        </div>
+      </div>
     </section>
 
-    <section style="margin-top: 100px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1 text-center iot-banner-content mb-3">
-                    <span>Welcome to Hipla</span>
-
-                    <div class="bar"></div>
-
-                    <h4 style="font-weight: 700;">
-                        Your Reliable IOT Solutions Company
-                    </h4>
-                    <p>
-                        Hipla welcomes you to a smart world of integrated devices and
-                        sensors. We are a leading IOT Solutions Company in India, entered
-                        the arena of AI which works in coherence with an IoT platform,
-                        transforming your work environment magically, without the swoosh
-                        of a wand!
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 mt-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card single-box">
-                        <div class="card-body text-center">
-                            <img class="mb-3" style="max-width: 50px;"
-                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
-                                alt="" srcset="" />
-                            <h5 style="font-weight: 600;" class="card-title">Smart</h5>
-                            <p class="card-text" style="font-size: 13px;">
-                                Intuitive and intelligent system, that manages an entire
-                                campus ecosystem without fail, 24X7, without human
-                                intervention.
-                            </p>
-                            <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
-                        </div>
-                    </div>
-                </div>
+    <section class="iot-cta-area bg-0f054b py-5" style="margin-top: 75px;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="cta-iot-img">
+              <img
+                src="https://www.pasona-vue.envytheme.com/img/cta-shape2.6a78c3a6.png"
+                data-wow-delay="0.6s"
+                alt="image"
+                class="wow fadeInUp"
+              />
             </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact-cta-box">
-                        <p>
-                            Download Brochure to know more detail information about our
-                            products.
-                        </p>
-                        <a class="btn btn-primary" href="#">Download Brochure</a>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-6">
+            <div class="cta-iot-content">
+              <h3>Connect and Manage your IoT at Scale</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
+              </p>
+              <a href="#" class="btn btn-primary">Get Started!</a>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section class="py-5" style="margin-top: 75px; background-color: #f7fafd;">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <div class="iot-banner-content">
-                        <span>Internet of Things</span>
-                        <h4 style="font-weight: 700;" class="my-3">
-                            What is Hipla Office?
-                        </h4>
-                        <p>
-                            An all-round support solution that manages every step of
-                            critical office processes making them easier to accomplish.
-                        </p>
-                        <p>
-                            Our IOT Solutions Company has an advanced and modern age
-                            solution system for effective automation of various office
-                            processes such as management of guest arrivals through entry
-                            access and parking management, scheduling and managements of
-                            meetings, boardroom automation, employee workspace management,
-                            refreshment ordering and much more.
-                        </p>
-                        <a href="#" class="btn btn-primary">Watch Video &nbsp;<i class="fa fa-play"
-                                aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img style="max-width: 600px;" src="./image/image1.png" alt="" srcset="" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="margin-top: 100px;">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <img style="max-width: 500px;" src="./image/1.7b6e3be3.png" alt="" srcset="" />
-                </div>
-                <div class="col-md-6 services-content">
-                    <div class="section-title">
-                        <h4 style="font-weight: 700;" class="mb-3">
-                            Cloud Hosting Services
-                        </h4>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Automatic Door Opening
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Door Opening On Face Recognition
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Multifaceted utilities under one Single platform
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Automatic Door opening on QR code scanning
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Indoor Navigation within premises
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Automated energy management system
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Alerts on emergency situations
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="box">
-                                <div style="font-size: 13px;">
-                                    <i class="fa fa-check" style="color: #44ce6f;" aria-hidden="true"></i>
-                                    Automatic Door Opening
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" style="color: #44ce6f;">Learn more about features</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="iot-cta-area bg-0f054b" style="margin-top: 75px; padding-top: 50px; padding-bottom: 50px;">
-        <div class="container">
-            <div class="row align-items-center text-center">
-                <div class="col-md-12">
-                    <div class="cta-iot-content">
-                        <h3>Connect and Manage your IoT at Scale</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                            ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <a href="#" style="color: #44ce6f;">Get Started!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="circle-box">
-            <img src="https://www.pasona-vue.envytheme.com/img/circle.1c652109.png" alt="image" />
-        </div>
-        <div class="cta-shape">
-            <img src="https://www.pasona-vue.envytheme.com/img/cta-shape.1db2a22e.png" alt="image" />
-        </div>
-    </section>
-
-    <section style="
-        padding-top: 100px;
-        padding-bottom: 100px;
-        background-color: #f7fafd;
-      ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h4 style="font-weight: 700;">What Users Saying</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod <br />tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="card card-testimonials">
-                                    <div class="card-body card-test">
-                                        <p class="px-5">
-                                            We at Vehere are immensely pleased with The Visitor
-                                            Management and Smart Office system from Hipla. It has
-                                            promoted our visitor registration imperatively seamless
-                                            by issuing printed visitor badges with all required data
-                                            printed on the badge & also stored in our server, thus
-                                            easing the manual process. It has made a substantial
-                                            impact within our company on optimizing time, stepping
-                                            up security, reviewing the number of meetings with exact
-                                            time logs. It is like a keyless entry with all the
-                                            required information and ingredients, working as an
-                                            absolute customer delight and creating a wow experience
-                                            for our visitors in an automated architecture.
-                                        </p>
-                                        <h6 style="font-weight: 700;">
-                                            Name of the client
-                                            <span style="font-weight: 400; font-size: 13px;">
-                                                (Position in the company)</span>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="card card-testimonials">
-                                    <div class="card-body card-test">
-                                        <p class="px-5">
-                                            Hipla team was amazing, patient and cooperative and the
-                                            way they communicated, managed and ensured completion of
-                                            the project is commendable. This is a truly appreciating
-                                            engagement and we are content with you and your team and
-                                            the way they managed to get things onboard. I am
-                                            thankful to all the team Hipla to have spent time for a
-                                            successful delivery at WSG.
-                                        </p>
-                                        <h6 style="font-weight: 700;">
-                                            Name of the client
-                                            <span style="font-weight: 400; font-size: 13px;">
-                                                (Position in the company)</span>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="card card-testimonials">
-                                    <div class="card-body card-test">
-                                        <p class="px-5">
-                                            When we made a decision to entrust guest registration to
-                                            Hipla while organising Infosec 2018, we were outsourcing
-                                            a pivotal part of the comprehensive event management to
-                                            proven professionals. Working with Hipla’s automated
-                                            guest authentication solution inspired confidence and
-                                            brought efficiency to our overall event management.
-                                            Their team was very knowledgeable and helpful, worked
-                                            quickly and effectively while clearly communicating, and
-                                            delivered a painless guest authentication solution at a
-                                            competitive cost.
-                                        </p>
-                                        <h6 style="font-weight: 700;">
-                                            Name of the client
-                                            <span style="font-weight: 400; font-size: 13px;">
-                                                (Position in the company)</span>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="circle-box">
+        <img
+          src="https://www.pasona-vue.envytheme.com/img/circle.1c652109.png"
+          alt="image"
+        />
+      </div>
+      <div class="cta-shape">
+        <img
+          src="https://www.pasona-vue.envytheme.com/img/cta-shape.1db2a22e.png"
+          alt="image"
+        />
+      </div>
     </section>
 
     <section style="margin-top: 75px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 iot-banner-content mb-3">
-                    <h4 style="font-weight: 700;">News & Blog</h4>
-                    <p>
-                        Hipla welcomes you to a smart world of integrated devices and
-                        sensors. We are a leading IOT Solutions Company in India.
-                    </p>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-10 offset-md-1 text-center iot-banner-content"
+          >
+            <span>Welcome to Hipla</span>
 
-                <div class="col-md-3">
-                    <img style="height: 150px;"
-                        src="data:image/jpeg;base64,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"
-                        alt="" srcset="" />
-                    <h6 class="mt-3" style="font-weight: 600;">
-                        The workplace of the future—humans and high-tech spaces
-                    </h6>
-                    <p>
-                        Our latest report on the perfect equation for a successful
-                        workplace, what tech will become popular in 5 years, and why
-                        humans are the key to the future office.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img style="height: 150px;"
-                        src="data:image/jpeg;base64,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"
-                        alt="" srcset="" />
-                    <h6 class="mt-3" style="font-weight: 600;">
-                        How to adapt your office and workplace experience for Gen Z
-                    </h6>
-                    <p>
-                        Gen Z makes up 27% of the U.S. population. The most diverse cohort
-                        yet, how can employers update their offices to attract top talent?
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img style="height: 150px;"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGGf984U4veN4d50MqCoTFFI5QFY3JWmIPx8TdhPoX8bufZEq4&usqp=CAU"
-                        alt="" srcset="" />
-                    <h6 class="mt-3" style="font-weight: 600;">
-                        Digital and physical security threats are real, but there’s hope
-                    </h6>
-                    <p>
-                        Insights from our 2020 Workplace Security report of IT and
-                        Security professionals.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <img style="height: 150px;"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAntFxAnr-qwKkAte-xIBOvJ2cs4R9vmwG0qpYCH8uouAaYVgR&usqp=CAU"
-                        alt="" srcset="" />
-                    <h5 class="mt-3" style="font-weight: 600;">
-                        The workplace of the future—humans and high-tech spaces
-                    </h5>
-                    <p>
-                        Our latest report on the perfect equation for a successful
-                        workplace, what tech will become popular in 5 years, and why
-                        humans are the key to the future office.
-                    </p>
-                </div>
+            <div class="bar"></div>
+
+            <h4 style="font-weight: 700;">
+              Your Reliable IOT Solutions Company
+            </h4>
+            <p>
+              Hipla welcomes you to a smart world of integrated devices and
+              sensors. We are a leading IOT Solutions Company in India, entered
+              the arena of AI which works in coherence with an IoT platform,
+              transforming your work environment magically, without the swoosh
+              of a wand!
+            </p>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card single-box">
+              <div class="card-body text-center">
+                <img
+                  class="mb-3"
+                  style="max-width: 50px;"
+                  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://hipla.io/wp-content/uploads/2018/09/brain.png"
+                  alt=""
+                  srcset=""
+                />
+                <h5 style="font-weight: 600;" class="card-title">Smart</h5>
+                <p class="card-text" style="font-size: 13px;">
+                  Intuitive and intelligent system, that manages an entire
+                  campus ecosystem without fail, 24X7, without human
+                  intervention.
+                </p>
+                <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section style="
+    <section class="py-5" style="margin-top: 75px; background-color: #f7fafd;">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 order-sm-2">
+            <img
+              style="max-width: 600px;"
+              src="./image/image1.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="col-md-6 order-sm-1 about-office">
+            <div class="iot-banner-content">
+              <span>Internet of Things</span>
+              <h4 style="font-weight: 700;" class="my-3">
+                What is Hipla Office?
+              </h4>
+              <p>
+                An all-round support solution that manages every step of
+                critical office processes making them easier to accomplish.
+              </p>
+              <p>
+                Our IOT Solutions Company has an advanced and modern age
+                solution system for effective automation of various office
+                processes such as management of guest arrivals through entry
+                access and parking management, scheduling and managements of
+                meetings, boardroom automation, employee workspace management,
+                refreshment ordering and much more.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Watch Video &nbsp;<i class="fa fa-play" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top: 100px;">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <img
+              style="max-width: 500px;"
+              src="./image/1.7b6e3be3.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-md-6 services-content about-office2">
+            <div class="section-title">
+              <h4 style="font-weight: 700;" class="mb-3">
+                Cloud Hosting Services
+              </h4>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="row mb-4">
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Automatic Door Opening
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Door Opening On Face Recognition
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Multifaceted utilities under one Single platform
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Automatic Door opening on QR code scanning
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Indoor Navigation within premises
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Automated energy management system
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Alerts on emergency situations
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="box">
+                  <div style="font-size: 13px;">
+                    <i
+                      class="fa fa-check"
+                      style="color: #44ce6f;"
+                      aria-hidden="true"
+                    ></i>
+                    Automatic Door Opening
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" style="color: #44ce6f;">Learn more about features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="iot-cta-area bg-0f054b"
+      style="margin-top: 75px; padding-top: 50px; padding-bottom: 50px;"
+    >
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-md-12">
+            <div class="cta-iot-content">
+              <h3>Connect and Manage your IoT at Scale</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
+              </p>
+              <a href="#" style="color: #44ce6f;">Get Started!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-box">
+        <img
+          src="https://www.pasona-vue.envytheme.com/img/circle.1c652109.png"
+          alt="image"
+        />
+      </div>
+      <div class="cta-shape">
+        <img
+          src="https://www.pasona-vue.envytheme.com/img/cta-shape.1db2a22e.png"
+          alt="image"
+        />
+      </div>
+    </section>
+
+    <section
+      style="
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #f7fafd;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4 style="font-weight: 700;">What Users Saying</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod <br />tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card card-testimonials">
+                    <div class="card-body card-test">
+                      <p class="padding-x">
+                        We at Vehere are immensely pleased with The Visitor
+                        Management and Smart Office system from Hipla. It has
+                        promoted our visitor registration imperatively seamless
+                        by issuing printed visitor badges with all required data
+                        printed on the badge & also stored in our server, thus
+                        easing the manual process. It has made a substantial
+                        impact within our company on optimizing time, stepping
+                        up security, reviewing the number of meetings with exact
+                        time logs. It is like a keyless entry with all the
+                        required information and ingredients, working as an
+                        absolute customer delight and creating a wow experience
+                        for our visitors in an automated architecture.
+                      </p>
+                      <h6 style="font-weight: 700;">
+                        Name of the client
+                        <span style="font-weight: 400; font-size: 13px;">
+                          (Position in the company)</span
+                        >
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card card-testimonials">
+                    <div class="card-body card-test">
+                      <p class="padding-x">
+                        Hipla team was amazing, patient and cooperative and the
+                        way they communicated, managed and ensured completion of
+                        the project is commendable. This is a truly appreciating
+                        engagement and we are content with you and your team and
+                        the way they managed to get things onboard. I am
+                        thankful to all the team Hipla to have spent time for a
+                        successful delivery at WSG.
+                      </p>
+                      <h6 style="font-weight: 700;">
+                        Name of the client
+                        <span style="font-weight: 400; font-size: 13px;">
+                          (Position in the company)</span
+                        >
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card card-testimonials">
+                    <div class="card-body card-test">
+                      <p class="padding-x">
+                        When we made a decision to entrust guest registration to
+                        Hipla while organising Infosec 2018, we were outsourcing
+                        a pivotal part of the comprehensive event management to
+                        proven professionals. Working with Hipla’s automated
+                        guest authentication solution inspired confidence and
+                        brought efficiency to our overall event management.
+                        Their team was very knowledgeable and helpful, worked
+                        quickly and effectively while clearly communicating, and
+                        delivered a painless guest authentication solution at a
+                        competitive cost.
+                      </p>
+                      <h6 style="font-weight: 700;">
+                        Name of the client
+                        <span style="font-weight: 400; font-size: 13px;">
+                          (Position in the company)</span
+                        >
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top: 75px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 iot-banner-content">
+            <h4 style="font-weight: 700;">Case Studies</h4>
+            <p>
+              Hipla welcomes you to a smart world of integrated devices and
+              sensors. We are a leading IOT Solutions Company in India.
+            </p>
+          </div>
+
+          <div class="col-md-3 mt-3">
+            <img
+              style="height: 150px;"
+              src="data:image/jpeg;base64,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"
+              alt=""
+              srcset=""
+            />
+            <h6 class="mt-3" style="font-weight: 600;">
+              The workplace of the future—humans and high-tech spaces
+            </h6>
+            <p>
+              Insights from our 2020 Workplace Security report of IT and Security professionals.
+            </p>
+          </div>
+          <div class="col-md-3 mt-3">
+            <img
+              style="height: 150px;"
+              src="data:image/jpeg;base64,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"
+              alt=""
+              srcset=""
+            />
+            <h6 class="mt-3" style="font-weight: 600;">
+              How to adapt your office and workplace experience for Gen Z
+            </h6>
+            <p>
+              Insights from our 2020 Workplace Security report of IT and Security professionals.
+            </p>
+          </div>
+          <div class="col-md-3 mt-3">
+            <img
+              style="height: 150px;"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGGf984U4veN4d50MqCoTFFI5QFY3JWmIPx8TdhPoX8bufZEq4&usqp=CAU"
+              alt=""
+              srcset=""
+            />
+            <h6 class="mt-3 " style="font-weight: 600;">
+              Digital and physical security threats are real, but there’s hope
+            </h6>
+            <p>
+              Insights from our 2020 Workplace Security report of IT and Security professionals.
+            </p>
+          </div>
+          <div class="col-md-3 mt-3">
+            <img
+              style="height: 150px;"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAntFxAnr-qwKkAte-xIBOvJ2cs4R9vmwG0qpYCH8uouAaYVgR&usqp=CAU"
+              alt=""
+              srcset=""
+            />
+            <h6 class="mt-3" style="font-weight: 600;">
+              The workplace of the future—humans and high-tech spaces
+            </h6>
+            <p>
+              Insights from our 2020 Workplace Security report of IT and Security professionals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="
         margin-top: 50px;
         padding-top: 70px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         background-color: #f7fafd;
-      ">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-7">
-                    <img class="mb-2" src="./image/logo.png" alt="" style="max-width: 125px;" />
-                    <small class="d-block mb-3 text-muted">SMART OFFICE SOLUTIONS</small>
-                </div>
-                <div class="col-md-5">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-md-7 mb-2">
-                                <label for="email" class="sr-only">Email</label>
-                                <input type="text" class="form-control" id="email" placeholder="Enter your email" />
-                            </div>
-                            <div class="col-md-5">
-                                <button type="submit" class="btn btn-primary mb-2">
-                                    Get started
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="row border-top border-bottom py-4 mb-3">
-                <div class="col-12">
-                    <i class="fa fa-phone mr-3"></i> Contact our sales team today at
-                    <a href="+919876543210" class="text-danger">(987) 654-3210</a>
-                </div>
-            </div>
-
-            <footer class="footer-text mt-4">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 style="font-weight: 600;">Features</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Cool stuff</a></li>
-                            <li><a class="text-muted" href="#">Random feature</a></li>
-                            <li><a class="text-muted" href="#">Team feature</a></li>
-                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                            <li><a class="text-muted" href="#">Another one</a></li>
-                            <li><a class="text-muted" href="#">Last time</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 style="font-weight: 600;">Features</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Cool stuff</a></li>
-                            <li><a class="text-muted" href="#">Random feature</a></li>
-                            <li><a class="text-muted" href="#">Team feature</a></li>
-                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                            <li><a class="text-muted" href="#">Another one</a></li>
-                            <li><a class="text-muted" href="#">Last time</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 style="font-weight: 600;">Features</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Cool stuff</a></li>
-                            <li><a class="text-muted" href="#">Random feature</a></li>
-                            <li><a class="text-muted" href="#">Team feature</a></li>
-                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                            <li><a class="text-muted" href="#">Another one</a></li>
-                            <li><a class="text-muted" href="#">Last time</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 style="font-weight: 600;">Features</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Cool stuff</a></li>
-                            <li><a class="text-muted" href="#">Random feature</a></li>
-                            <li><a class="text-muted" href="#">Team feature</a></li>
-                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                            <li><a class="text-muted" href="#">Another one</a></li>
-                            <li><a class="text-muted" href="#">Last time</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-12 pt-4 mt-4 footer-border text-center" style="color: #6084a4;">
-                        ©2020 Copyright Future Netwings Solutions Pvt Ltd.
-                    </div>
-                </div>
-            </footer>
+      "
+    >
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <img
+              class="mb-2"
+              src="./image/logo.png"
+              alt=""
+              style="max-width: 125px;"
+            />
+            <small class="d-block mb-3 text-muted"
+              ><b>SMART OFFICE SOLUTIONS</b></small
+            >
+          </div>
+          <div class="col-md-8 footer-lg">
+            <ul class="nav justify-content-end" style="font-size: 25px;">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/hipla.io"><i class="fa fa-facebook-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/company/gohipla/"><i class="fa fa-linkedin-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/Hipla8"><i class="fa fa-twitter-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/hipla.io/"><i class="fa fa-instagram" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8 footer-sm">
+            <ul class="nav" style="font-size: 25px;">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/hipla.io"><i class="fa fa-facebook-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/company/gohipla/"><i class="fa fa-linkedin-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/Hipla8"><i class="fa fa-twitter-square" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/hipla.io/"><i class="fa fa-instagram" style="color: #2d59a7 !important;" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="row border-top border-bottom py-4 mb-3">
+          <div class="col-12">
+            <i class="fa fa-phone mr-3" style="font-size: 14px;"></i> Contact our sales team today at
+            <a href="tel: +919876543210" style="color: #44ce6f;">+91 99168 84801</a>
+          </div>
+        </div>
+
+        <footer class="footer-text mt-5">
+          <div class="row my-5">
+            <div class="col-12 col-md-2 col-lg-2">
+              <h5 style="font-weight: 600;">Mumbai</h5>
+              <ul class="list-unstyled" style="font-weight: 200;">
+                <li><p style="font-size: 13px;">17 & 18, Platinum Techno Park,Level 3, Sector 30
+                  Vashi Mumbai 400705, India.</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i>  +91 96648 70382</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2">
+              <h5 style="font-weight: 600;">Delhi - NCR</h5>
+              <ul class="list-unstyled" style="font-weight: 200;">
+                <li><p style="font-size: 13px;">D13, 3rd floor. Sector 3
+                  Noida 201301, India.</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i>  +91 96509 72890</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2">
+              <h5 style="font-weight: 600;">Kolkata</h5>
+              <ul class="list-unstyled" style="font-weight: 200;">
+                <li><p style="font-size: 13px;">Synergy Building, 5th Floor Thakdari Road
+                  P.O. Krishnapur, Rajarhat Kolkata 700102. India</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i>  +91 62906 04378</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2">
+              <h5 style="font-weight: 600;">Bangalore</h5>
+              <ul class="list-unstyled" style="font-weight: 200;">
+                <li><p style="font-size: 13px;">#823, 2nd FL, 8th Cross, 27th Main Rd, Sector 1, HSR Layout
+                  Bengaluru 560102, Karnataka, India</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i>  +91 99168 84801</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2">
+              <h5 style="font-weight: 600;">Singapore</h5>
+              <ul class="list-unstyled" style="font-weight: 200;">
+                <li><p style="font-size: 13px;">One Raffles Place #19-61 Tower 2
+                  Singapore 048616</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i>  +65 9233 2199</p></li>
+                <li><p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2">
+              <ul class="list-unstyled">
+                <li><p style="font-size: 13px; font-weight: 500;">Become a Partner</p></li>
+                <li><p style="font-size: 13px; font-weight: 500;">Contact Us</p></li>
+                <li><p style="font-size: 13px; font-weight: 500;">Terms of Services</p></li>
+                <li><p style="font-size: 13px; font-weight: 500;">Privacy Policy</p></li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div
+            class="col-md-12 pt-4 footer-border text-center"
+            style="color: #6084a4; font-size: 13px;"
+          >
+            ©2020 Copyright Future Netwings Solutions Pvt Ltd.
+          </div>
+          </div>
+        </footer>
+      </div>
     </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".mobile-nav").on("click", ".close", function (e) {
+        e.preventDefault();
+        $(".mobile-nav").removeClass("show");
+      });
+      $(".navbar-toggler").on("click", function (e) {
+        e.preventDefault();
+        $(".mobile-nav").addClass("show");
+      });
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          responsiveClass: true,
+          // center: true,
+          nav: false,
+          margin: 20,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            800: {
+              items: 3,
+            },
+            1000: {
+              items: 4,
+            },
+          },
+        });
+      });
 
+      $(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $("#header").addClass("active");
+    }
+    else {
+        $("#header").removeClass("active");
+    }
+});
+    </script>
+  </body>
 </html>

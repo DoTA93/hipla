@@ -1,0 +1,637 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+
+   <!-- Favicon -->
+   <link rel="icon" href="favicon.png" type="image/png">
+   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- CSS and Font-awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Use Case - Hipla</title>
+</head>
+
+<body>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white nav-p">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img style="max-width: 125px;" src="./image/logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- first is the link in your navbar -->
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Products</a>
+
+              <!-- your mega menu starts here! -->
+              <div class="dropdown-menu dropdown-menu-right p-2 m-0 dropdown-shadow" aria-labelledby="servicesDropdown">
+                <!-- finally, using flex to create your layout -->
+                <div class="d-md-flex align-items-start justify-content-start">
+                  <div>
+                    <div class="dropdown-header">Products</div>
+                    <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
+                      <img src="/image/product-01.png" alt=""
+                        style="width: 40px !important; height: 40px;" />
+                      <div class="ml-2">
+                        <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;">
+                          Contact Tracing
+                        </p>
+                        <!-- <p class="mb-0 text-muted" style="font-size: 13px;">
+                          Lorem ipsum dolor sit amet.
+                        </p> -->
+                      </div>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
+                      <img src="/image/product-02.png" alt=""
+                        style="width: 40px !important; height: 40px;" />
+                      <div class="ml-2">
+                        <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;">
+                          Visitor Management System
+                        </p>
+                        <!-- <p class="mb-0 text-muted" style="font-size: 13px;">
+                          Lorem ipsum dolor sit amet.
+                        </p> -->
+                      </div>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
+                      <img src="/image/product-03.png" alt=""
+                        style="width: 40px !important; height: 40px;" />
+                      <div class="ml-2">
+                        <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;">
+                          Meeting Management System
+                        </p>
+                        <!-- <p class="mb-0 text-muted" style="font-size: 13px;">
+                          Lorem ipsum dolor sit amet.
+                        </p> -->
+                      </div>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
+                      <img src="/image/product-04.png" alt=""
+                        style="width: 40px !important; height: 40px;" />
+                      <div class="ml-2">
+                        <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;">
+                          Pantry Managment
+                        </p>
+                        <!-- <p class="mb-0 text-muted" style="font-size: 13px;">
+                          Lorem ipsum dolor sit amet.
+                        </p> -->
+                      </div>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center rounded-lg py-2" href="#">
+                      <img src="/image/product-05.png" alt=""
+                        style="width: 40px !important; height: 40px;" />
+                      <div class="ml-2">
+                        <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;">
+                          Enterprise Solution
+                        </p>
+                        <!-- <p class="mb-0 text-muted" style="font-size: 13px;">
+                          Lorem ipsum dolor sit amet.
+                        </p> -->
+                      </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- first is the link in your navbar -->
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Brochures</a>
+
+              <!-- your mega menu starts here! -->
+              <div class="dropdown-menu dropdown-menu-right p-2 m-0 dropdown-shadow" aria-labelledby="servicesDropdown">
+                <!-- finally, using flex to create your layout -->
+                <div class="d-md-flex align-items-start justify-content-start">
+                  <div>
+                    <a class="dropdown-item rounded-lg py-2" href="/pdf/SmartOffice-Brochure-4.0.pdf" target="_blank">
+                      <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-01.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                        Hipla Smart Office
+                      </p>
+                    </a>
+                    <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-Smart-Office-lite-v03.pdf"  target="_blank">
+                      <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-02.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                        Hipla Office Lite
+                      </p>
+                    </a>
+                    <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-SCHOOL-brochure_01.pdf"  target="_blank">
+                      <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-03.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                        Hipla Smart School
+                      </p>
+                    </a>
+                    <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-Hospital-Brochure-v_01.pdf"  target="_blank">
+                      <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-04.png" style="width: 40px !important; height: 40px;" alt="" srcset="">                 
+                      Hipla Smart Hospital
+                      </p>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" href="./case-studies.html">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary1 ml-3" data-toggle="modal" data-target="#exampleModal">
+            REQUEST DEMO
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="mobile-nav">
+      <div class="products">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-muted small">Products</h5>
+            <button class="btn btn-link text-decoration-none p-2 bg-transparent text-dark close">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+
+          <div class="col-12">
+            <a class="dropdown-item rounded-lg py-2" href="/contact-tracing.html">
+              <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"><img src="/image/product-01.png" alt=""
+                style="width: 25px !important; height: 25px;" /> 
+                Contact Tracing
+              </p>
+            </a>
+          </div>
+
+          <div class="col-12">
+            <a class="dropdown-item  rounded-lg py-2" href="/visitor-management.html">
+              <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"><img src="/image/product-02.png" alt=""
+                style="width: 25px !important; height: 25px;" /> 
+                Visitor Management System
+              </p>
+            </a>
+          </div>
+
+          <div class="col-md-12">
+            <a class="dropdown-item  rounded-lg py-2" href="/meeting-management.html">
+              <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"><img src="/image/product-03.png" alt=""
+                style="width: 25px !important; height: 25px;" /> 
+                Meeting Management System
+              </p>
+            </a>
+          </div>
+
+          <div class="col-12">
+            <a class="dropdown-item   rounded-lg py-2" href="/pantry-management.html">
+              <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"><img src="/image/product-04.png" alt=""
+                style="width: 25px !important; height: 25px;" /> 
+                Pantry Management
+              </p>
+            </a>
+          </div>
+
+          <div class="col-12">
+            <a class="dropdown-item   rounded-lg py-2" href="/enterprise-solution.html">
+                <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"><img src="/image/product-05.png" alt=""
+                  style="width: 25px !important; height: 25px;" /> 
+                  Enterprise Solution
+                </p>
+            </a>
+          </div>
+
+
+
+          <div class="col-12">
+            <div class="links mt-3">
+              <h5 class="text-muted small">Other links</h5>
+              <ul class="nav flex-column pl-0 w-100">
+                <li class="nav-item">
+                  <a class=" font-weight-bold text-dark pl-0 small" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <!-- first is the link in your navbar -->
+                  <a class="dropdown-toggle font-weight-bold text-dark pl-0 small" href="#" id="servicesDropdown"  role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Brochures</a>
+    
+                  <!-- your mega menu starts here! -->
+                  <div class="dropdown-menu dropdown-menu-right m-0 dropdown-shadow" aria-labelledby="servicesDropdown">
+                    <!-- finally, using flex to create your layout -->
+                    <div class="d-md-flex align-items-start justify-content-start">
+                      <div>
+                        <a class="dropdown-item rounded-lg py-2" href="/pdf/SmartOffice-Brochure-4.0.pdf" target="_blank">
+                          <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-01.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                            Hipla Smart Office
+                          </p>
+                        </a>
+                        <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-Smart-Office-lite-v03.pdf"  target="_blank">
+                          <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-02.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                            Hipla Office Lite
+                          </p>
+                        </a>
+                        <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-SCHOOL-brochure_01.pdf"  target="_blank">
+                          <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-03.png" style="width: 40px !important; height: 40px;" alt="" srcset="">
+                            Hipla Smart School
+                          </p>
+                        </a>
+                        <a class="dropdown-item  rounded-lg py-2" href="/pdf/HIPLA-Hospital-Brochure-v_01.pdf"  target="_blank">
+                          <p class="mb-0" style="font-weight: 600; font-size: 14px; color: #4a6f8a;"> <img src="/image/brochure-04.png" style="width: 40px !important; height: 40px;" alt="" srcset="">                 
+                          Hipla Smart Hospital
+                          </p>
+                        </a>
+                      </div>
+    
+    
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class=" font-weight-bold text-dark pl-0 small" href="./case-studies.html">Case Studies</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" font-weight-bold text-dark pl-0 small" href="./contact.html">Contacts</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary1 mt-3" data-toggle="modal" data-target="#exampleModal">
+                REQUEST DEMO
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section class="case-p-t">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="">
+                  <h4 class="mb-4" style="font-weight: bold; color: #4a6f8a;">Crowd Management at Religious places</h4>
+                  <img class="map-area mb-5" src="/image/use-cases/1.jpg" alt="">
+                   
+                    <p class="p2">Advancement of technology has touched every aspect of human life. Technical innovation has extensively influenced the lifestyle across different strata of human life. Mobile applications and proximity solutions are a new approach that has been utilized by many companies across industries to simplify human life. However, one aspect has yet not received necessary limelight. Utilization of mobile applications combined with proximity services for crowd management at religious places is a peripheral that has not been discussed in detail. We have performed an elaborate research on the subject and identified the challenges associated with the scenario.
+                    </p>
+                    
+                    <h6 class="mt-5" style="font-weight: bold; color: #4a6f8a;">Challenges</h6>
+                     
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Crowd Management is one of the primary aspects which poses to be a critical challenge for any religious location. Depending the area and popularity of the location, thousands of devotees’ flock the place accordingly. Other factors influencing the count of devotees are any particular religious occasion and any particular time of the year when a certain natural phenomenon occurs which influences the religious activity.
+                      </p>
+                    </div>
+
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Another scenario which is essential to address is appropriate support in terms of service desks. Be it temples or mosques or any other religious location, devotees often find it very difficult to locate a particular service spot in terms of buying prayer materials, offering certain religious items and such like.
+                      </p>
+                    </div>
+
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Finding way to the particular spots within the religious location or to the actual prayer site is also tedious and cumbersome. Often people take the manual assistance of shopkeepers or other devotees nearby to reach a particular spot. This creates unwanted confusion and delay. Devotees also may end up at inappropriate locations which cause problems.
+                      </p>
+                    </div>
+
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Emergency services become very essential when huge number of people visit a particular place. Religious locations are no different. Monitoring of crowd and deployment of emergency services at accurate time and precise location from the administration end becomes highly crucial.There is a dire need for people centric SOS system as well, wherein devotees can call for help in the quick and convenient manner.
+                      </p>
+                    </div>
+
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        A highly advanced monitoring system is very essential at such places. Video feed and time to time data log is very essential towards keeping a close eye on situational aspects. This helps in managing the crowd in a much systematic manner.
+                      </p>
+                    </div>
+
+                        
+                    
+                    <h4 class="mt-5" style="font-weight: bold; color: #4a6f8a;">Solution</h4>
+                    <p class="p2"><span class="s1">Through our technology platform HIPLA, we have come up with a comprehensive solution that can address and manage all the above challenges in the most convenient and systematic manner. HIPLA Crowd Management is the effective answer to all the above constraints.</span></p>
+                    
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Our solution provides best in class crowd management system through a high end navigation system. It helps the devotees to find spots within the religious location in terms of main temple or worship area, stalls that provide prayer items, services desks, information centres and help desks. This will help in channelling the crowd in the right direction, reducing unwanted delays and rush during mass gatherings.
+                      </p>
+                    </div>
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Reaching out and deployment of emergency services is one of the prime features of our solution. The devotees can reach out for help and assistance services with ease and effectivity. Similarly, the administration department will also be able to deploy such services at the time of need with the support of an extensive monitoring system.
+                      </p>
+                    </div>
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        Our solution is supported by a comprehensive monitoring system that manages the safety of the location as well as the devotees. It also supports extensive security management.
+                      </p>
+                    </div>
+                    <div class="media pt-4">
+                      <i class="fa fa-check-circle mr-2" style="color: #44ce6f;" aria-hidden="true"></i>
+                      <p class="media-body mb-0 lh-125">
+                        A highly advanced backend analytics system that is based on data logs and video analytics. It helps in understanding the footfall in the location, any time based mass gatherings and such like. It helps in understanding and managing the support services accordingly.
+                      </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-md-3 offset-md-1 mt-5">
+              <h6 style="color: #6084a4;"><b>Use Cases Links</b></h6>
+              <p ><a style="color: #6084a4;" href="/use-case-1.html">Smart Airport using beacons</a></p>
+              <p ><a style="color: #6084a4;" href="/use-case-2.html">Restaurant Business to Flourish by Beacon Technology</a></p>
+              <p ><a style="color: #6084a4;" href="/use-case-3.html">Beacon Technology Garnering Fan Experience to a Whole New Level at Stadiums</a></p>
+              <p ><a style="color: #6084a4;" href="/use-case-4.html">Crowd Management at Religious places</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section style="
+        margin-top: 50px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        background-color: #f7fafd;
+      ">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <img class="mb-2" src="./image/logo.png" alt="" style="max-width: 125px;" />
+          <small class="d-block mb-3 text-muted"><b>SMART OFFICE SOLUTIONS</b></small>
+        </div>
+        <div class="col-md-8 footer-lg">
+          <ul class="nav justify-content-end" style="font-size: 25px;">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/hipla.io"><i class="fa fa-facebook-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/company/gohipla/"><i class="fa fa-linkedin-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/Hipla8"><i class="fa fa-twitter-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/hipla.io/"><i class="fa fa-instagram"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 footer-sm">
+          <ul class="nav" style="font-size: 25px;">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/hipla.io"><i class="fa fa-facebook-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/company/gohipla/"><i class="fa fa-linkedin-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/Hipla8"><i class="fa fa-twitter-square"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/hipla.io/"><i class="fa fa-instagram"
+                  style="color: #4a6f8a !important;" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row border-top border-bottom py-4 mb-3">
+        <div class="col-12">
+          <i class="fa fa-phone mr-3" style="font-size: 14px;"></i> Contact our sales team today at
+          <a href="tel: +919876543210" style="color: #2d59a7;"><b>+91 99168 84801</b></a>
+        </div>
+      </div>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 style="color: #4a6f8a;" class="modal-title" id="exampleModalLabel"><b>Request Demo</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Company Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Company Website</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" > 
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <!-- <div class="form-group">
+            <label for="exampleFormControlSelect1">Product</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div> -->
+        </form>
+      </div>
+      <div class="modal-footer ">
+        <p style="margin-top: 20px; margin-right: 20px;" data-dismiss="modal">Close</p>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+      <footer class="footer-text mt-5">
+        <div class="row my-5">
+          <div class="col-12 col-md-2 col-lg-2">
+            <h5 style="font-weight: 600;">Mumbai</h5>
+            <ul class="list-unstyled" style="font-weight: 200;">
+              <li>
+                <p style="font-size: 13px;">17 & 18, Platinum Techno Park,Level 3, Sector 30
+                  Vashi Mumbai 400705, India.</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i> +91 96648 70382</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2">
+            <h5 style="font-weight: 600;">Delhi - NCR</h5>
+            <ul class="list-unstyled" style="font-weight: 200;">
+              <li>
+                <p style="font-size: 13px;">D13, 3rd floor. Sector 3
+                  Noida 201301, India.</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i> +91 96509 72890</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2">
+            <h5 style="font-weight: 600;">Kolkata</h5>
+            <ul class="list-unstyled" style="font-weight: 200;">
+              <li>
+                <p style="font-size: 13px;">Synergy Building, 5th Floor Thakdari Road
+                  P.O. Krishnapur, Rajarhat Kolkata 700102. India</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i> +91 62906 04378</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2">
+            <h5 style="font-weight: 600;">Bangalore</h5>
+            <ul class="list-unstyled" style="font-weight: 200;">
+              <li>
+                <p style="font-size: 13px;">#823, 2nd FL, 8th Cross, 27th Main Rd, Sector 1, HSR Layout
+                  Bengaluru 560102, Karnataka, India</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i> +91 99168 84801</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2">
+            <h5 style="font-weight: 600;">Singapore</h5>
+            <ul class="list-unstyled" style="font-weight: 200;">
+              <li>
+                <p style="font-size: 13px;">One Raffles Place #19-61 Tower 2
+                  Singapore 048616</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-phone" aria-hidden="true"></i> +65 9233 2199</p>
+              </li>
+              <li>
+                <p style="font-size: 13px;"><i class="fa fa-envelope" aria-hidden="true"></i> info@hipla.io</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2">
+            <ul class="list-unstyled">
+              <li>
+                <p style="font-size: 13px; font-weight: 500;"><a href="/partner.html">Become a Partner</a></p>
+              </li>
+              <li>
+                <p style="font-size: 13px; font-weight: 500;"><a href="/contact.html">Contact Us</a></p>
+              </li>
+              <li>
+                <p style="font-size: 13px; font-weight: 500;"><a href="/terms-conditions.html">Terms of Services</a></p>
+              </li>
+              <li>
+                <p style="font-size: 13px; font-weight: 500;"><a href="/privacy.html">Privacy Policy</a></p>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 pt-4 footer-border text-center" style="color: #6084a4; font-size: 13px;">
+            ©2020 Copyright Future Netwings Solutions Pvt Ltd.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $(".mobile-nav").on("click", ".close", function (e) {
+      e.preventDefault();
+      $(".mobile-nav").removeClass("show");
+    });
+    $(".navbar-toggler").on("click", function (e) {
+      e.preventDefault();
+      $(".mobile-nav").addClass("show");
+    });
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        // center: true,
+        nav: false,
+        margin: 20,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          800: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    });
+  </script>
+</body>
+
+</html>
