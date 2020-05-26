@@ -13,21 +13,6 @@ tl.to("#dot_1", {
   ease: "power0.easeNone"
 });
 
-// colour change of moving dots
-tl.to("#dot_1_outer_circle", 2, {
-  fill: '#D32F2F'
-}, '-=1.5');
-tl.to("#dot_1_inner_circle", 2, {
-  fill: '#D32F2F'
-}, '-=1.5');
-
-tl.to("#dot_2_outer_circle", 2, {
-  fill: '#D32F2F'
-}, '-=1.5');
-tl.to("#dot_2_inner_circle", 2, {
-  fill: '#D32F2F'
-}, '-=1.5');
-
 // moving dot 2
 tl.to("#dot_2", {
   motionPath: {
@@ -38,6 +23,22 @@ tl.to("#dot_2", {
   duration: 10,
   ease: "power0.easeNone"
 }, '-=10');
+
+// colour change of moving dots
+tl.to("#dot_1_outer_circle", 2, {
+  fill: '#D32F2F'
+}, '-=1.50');
+tl.to("#dot_1_inner_circle", 2, {
+  fill: '#D32F2F'
+}, '-=1.50');
+
+tl.to("#dot_2_outer_circle", 2, {
+  fill: '#D32F2F'
+}, '-=2.23');
+tl.to("#dot_2_inner_circle", 2, {
+  fill: '#D32F2F'
+}, '-=2.23');
+
 
 let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 0, yoyo: true });
 // other dots
