@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .btn-primary {
@@ -480,3 +481,8 @@ a:hover {
     background-color: #2d59a7 !important;
 }
 
+.custom-bullet {
+    width: 40px;
+    height: 40px;
+    line-height: 0.7;
+}

@@ -10,7 +10,7 @@ tl.to("#dot_1", {
     alignOrigin: [0.5, 0.5],
   },
   duration: 10,
-  ease: "power0.easeNone"
+  ease: Power0.easeNone
 });
 
 // moving dot 2
@@ -21,23 +21,23 @@ tl.to("#dot_2", {
     alignOrigin: [0.5, 0.5],
   },
   duration: 10,
-  ease: "power0.easeNone"
+  ease: Power0.easeNone
 }, '-=10');
 
 // colour change of moving dots
-tl.to("#dot_1_outer_circle", 2, {
+tl.to("#dot_1_outer_circle", 1, {
   fill: '#D32F2F'
-}, '-=1.50');
-tl.to("#dot_1_inner_circle", 2, {
+}, '-=0');
+tl.to("#dot_1_inner_circle", 1, {
   fill: '#D32F2F'
-}, '-=1.50');
+}, '-=1');
 
-tl.to("#dot_2_outer_circle", 2, {
+tl.to("#dot_2_outer_circle", 1, {
   fill: '#D32F2F'
-}, '-=2.23');
-tl.to("#dot_2_inner_circle", 2, {
+}, '-=1');
+tl.to("#dot_2_inner_circle", 1, {
   fill: '#D32F2F'
-}, '-=2.23');
+}, '-=1');
 
 
 let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 0, yoyo: true });
@@ -49,7 +49,7 @@ tl2.to("#dot_3", {
     alignOrigin: [0.5, 0.5],
   },
   duration: 2,
-  ease: "power0.easeNone"
+  ease: "Power0.easeNone"
 });
 
 tl2.to("#dot_4", {
@@ -59,7 +59,7 @@ tl2.to("#dot_4", {
     alignOrigin: [0.5, 0.5],
   },
   duration: 2,
-  ease: "power0.easeNone"
+  ease: "Power0.easeNone"
 }, '-=3');
 tl2.to("#dot_5", {
   motionPath: {
