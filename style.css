@@ -26,7 +26,12 @@ img {
 }
 
 .hero-section{
-    margin-top: 150px;
+    margin-top: 175px;
+}
+
+.hero-section-product{
+    padding-top: 175px;
+    padding-bottom: 100px;
 }
 
 .nav-p {
@@ -46,7 +51,7 @@ img {
 
 @media (max-width: 767.98px) { 
     .hero-section{
-        margin-top: 100px;
+        margin-top: 125px;
     }
 
     .card-product{
@@ -170,7 +175,7 @@ img {
 }
 
 p {
-    color: #3f6689;
+    color: #23384c;
     line-height: 1.6;
     font-size: 14px;
 }
@@ -225,7 +230,7 @@ ul .active {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     border: none;
-    min-height: 270px;
+    min-height: 200px;
 }
 
 .single-box2 {
@@ -470,3 +475,8 @@ ul .active {
 a:hover {
     text-decoration: none !important;
 }
+
+.bg-primary {
+    background-color: #2d59a7 !important;
+}
+
