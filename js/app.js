@@ -39,6 +39,10 @@ tl.to("#dot_2_inner_circle", 1, {
   fill: '#D32F2F'
 }, '-=1');
 
+tl.to("#breach_alert", 0.1, {
+  opacity: 1
+}, '+=2');
+
 
 let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 0, yoyo: true });
 // other dots
