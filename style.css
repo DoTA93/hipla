@@ -462,6 +462,7 @@ ul .active {
 .dropdown-shadow {
     box-shadow: 0 13px 27px 0 rgba(66, 75, 197, 0.10);
     border: none ;
+    min-width: 325px;
 }
 
 .form-group label {

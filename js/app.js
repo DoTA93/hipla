@@ -25,19 +25,19 @@ tl.to("#dot_2", {
 }, '-=10');
 
 // colour change of moving dots
-tl.to("#dot_1_outer_circle", 1, {
+tl.to("#dot_1_outer_circle", 2, {
   fill: '#D32F2F'
-}, '-=0');
-tl.to("#dot_1_inner_circle", 1, {
+}, '+=1');
+tl.to("#dot_1_inner_circle", 2, {
   fill: '#D32F2F'
-}, '-=1');
+}, '-=2');
 
-tl.to("#dot_2_outer_circle", 1, {
+tl.to("#dot_2_outer_circle", 2, {
   fill: '#D32F2F'
-}, '-=1');
-tl.to("#dot_2_inner_circle", 1, {
+}, '-=2');
+tl.to("#dot_2_inner_circle", 2, {
   fill: '#D32F2F'
-}, '-=1');
+}, '-=2');
 
 tl.to("#breach_alert", 0.1, {
   opacity: 1
