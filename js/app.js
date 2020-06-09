@@ -39,16 +39,16 @@ tl.to("#dot_2_inner_circle", 2, {
   fill: '#D32F2F'
 }, '-=2');
 
-tl.fromTo("#alert_left", 0.1, {
+tl.fromTo("#alert_left", 0.3, {
   opacity: 0,
   scaleX: 0.5,
   scaleY: 0.5
 }, {
   opacity: 1,
   scaleX: 1,
-  scaleY: 1
+  scaleY: 1,
 }, '+=2');
-tl.fromTo("#alert_right", 0.1, {
+tl.fromTo("#alert_right", 0.3, {
   opacity: 0,
   scaleX: 0.5,
   scaleY: 0.5
