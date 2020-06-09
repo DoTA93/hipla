@@ -39,9 +39,24 @@ tl.to("#dot_2_inner_circle", 2, {
   fill: '#D32F2F'
 }, '-=2');
 
-tl.to("#breach_alert", 0.1, {
-  opacity: 1
+tl.fromTo("#alert_left", 0.1, {
+  opacity: 0,
+  scaleX: 0.5,
+  scaleY: 0.5
+}, {
+  opacity: 1,
+  scaleX: 1,
+  scaleY: 1
 }, '+=2');
+tl.fromTo("#alert_right", 0.1, {
+  opacity: 0,
+  scaleX: 0.5,
+  scaleY: 0.5
+}, {
+  opacity: 1,
+  scaleX: 1,
+  scaleY: 1
+}, '-=0.1');
 
 
 let tl2 = gsap.timeline({ repeat: -1, repeatDelay: 0, yoyo: true });
